@@ -1,0 +1,52 @@
+#pricing-list-table {
+  // box-shadow: 0 35px 50px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  border-collapse: collapse;
+  font-size: 12px;
+  font-weight: 400;
+  max-width: auto;
+  white-space: nowrap;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  
+  
+
+  th {
+    text-align: center;
+    border: none;
+    
+  }
+
+  tr:nth-child(even) {
+    background-color: whitesmoke;
+  }
+
+  tr:nth-child(odd) {
+    background-color: gainsboro;
+  }
+
+  td {
+    border: none;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+
+  .program {
+    background-color: #A8DADC;
+    color: #343A40
+  }
+
+  .regTier {
+    background-color: #343A40;
+    color: #CED4DA
+  }
+
+  .advTier{
+    background-color: #F8F9FA;
+  }
+
+  .effectiveDate{
+    font-size: 0.9rem;
+  }
+}
